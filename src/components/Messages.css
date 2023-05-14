@@ -1,12 +1,14 @@
   .message {
     display: flex;
     margin: 1%;
+    
   }
   
   .currentMemberMessage {
     flex-direction: row-reverse;
     justify-content: flex-end;
     text-align: right;
+    margin: 1%
   }
   
   .content {
@@ -19,25 +21,23 @@
   .content > .username {
     display: block;
     color: rgb(60, 52, 172);
-    font-size: 15px;
+    font-size: 12px;
     padding-bottom: 3px;
   }
   
   .text {
-    padding: 12px;
-    max-width: 400px;
-    margin: 0;
+    padding: 10px;
+    
     border-radius: 12px;
     color: rgb(3, 3, 3);
     display: inline-block;
   }
   .list {
-    padding: 20px 0;
+    padding: 15px 0;
+    padding-left: 0;
     max-width: 900px;
     width: 100%;
-    margin: 0;
     list-style: none;
-    padding-left: 0;
     flex-grow: 1;
     overflow: auto;
   }
